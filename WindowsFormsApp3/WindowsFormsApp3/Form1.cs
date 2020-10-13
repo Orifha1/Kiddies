@@ -12,9 +12,15 @@ namespace WindowsFormsApp3
 {
     public partial class Form1 : Form
     {
+        //This is the form to use
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Button 1
         }
     }
 }
