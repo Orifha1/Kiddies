@@ -49,17 +49,22 @@ namespace WindowsFormsApp3
 
         }
 
-        private void tabPage22_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void tabPage2_Click(object sender, EventArgs e)
         {
 
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }

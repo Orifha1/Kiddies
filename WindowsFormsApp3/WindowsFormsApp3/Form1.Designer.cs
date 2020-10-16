@@ -34,37 +34,27 @@
             this.panelContacts = new System.Windows.Forms.Panel();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnOpenInNewTab = new System.Windows.Forms.Button();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.tabPage11 = new System.Windows.Forms.TabPage();
             this.tabPage12 = new System.Windows.Forms.TabPage();
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.panelAcademicAndTraining = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabControl3 = new System.Windows.Forms.TabControl();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.tabPage16 = new System.Windows.Forms.TabPage();
-            this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
-            this.tabPage19 = new System.Windows.Forms.TabPage();
-            this.tabPage20 = new System.Windows.Forms.TabPage();
-            this.tabPage21 = new System.Windows.Forms.TabPage();
-            this.tabPage22 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelContacts.SuspendLayout();
             this.tabControl2.SuspendLayout();
-            this.panelAcademicAndTraining.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabControl3.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -72,6 +62,7 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
+            this.flowLayoutPanel1.Controls.Add(this.panelAcademicAndTraining);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 34);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(1, 2, 1, 1);
@@ -101,11 +92,13 @@
             // 
             // panelContacts
             // 
+            this.panelContacts.Controls.Add(this.label2);
             this.panelContacts.Controls.Add(this.tabControl2);
-            this.panelContacts.Location = new System.Drawing.Point(6, 116);
+            this.panelContacts.Location = new System.Drawing.Point(2, 107);
             this.panelContacts.Name = "panelContacts";
-            this.panelContacts.Size = new System.Drawing.Size(782, 378);
+            this.panelContacts.Size = new System.Drawing.Size(851, 482);
             this.panelContacts.TabIndex = 1;
+            this.panelContacts.Visible = false;
             this.panelContacts.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // tabControl2
@@ -119,18 +112,110 @@
             this.tabControl2.Location = new System.Drawing.Point(4, 49);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(771, 252);
+            this.tabControl2.Size = new System.Drawing.Size(834, 424);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.tabPage8.Controls.Add(this.panel1);
+            this.tabPage8.Controls.Add(this.pictureBox1);
+            this.tabPage8.Controls.Add(this.btnOpenInNewTab);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(763, 226);
+            this.tabPage8.Size = new System.Drawing.Size(826, 398);
             this.tabPage8.TabIndex = 0;
             this.tabPage8.Text = "Report center";
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.linkLabel4);
+            this.panel1.Controls.Add(this.linkLabel3);
+            this.panel1.Controls.Add(this.linkLabel2);
+            this.panel1.Controls.Add(this.linkLabel1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(626, 44);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(194, 172);
+            this.panel1.TabIndex = 5;
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.LinkColor = System.Drawing.Color.White;
+            this.linkLabel4.Location = new System.Drawing.Point(44, 126);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(94, 13);
+            this.linkLabel4.TabIndex = 7;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "ContactPhone List";
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.LinkColor = System.Drawing.Color.White;
+            this.linkLabel3.Location = new System.Drawing.Point(44, 100);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(113, 13);
+            this.linkLabel3.TabIndex = 6;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Contact Address Book";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.LinkColor = System.Drawing.Color.White;
+            this.linkLabel2.Location = new System.Drawing.Point(44, 75);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(82, 13);
+            this.linkLabel2.TabIndex = 5;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Calls by Subject";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(44, 51);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(83, 13);
+            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Calls by Contact";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(44, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Select a Report";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 44);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(601, 327);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnOpenInNewTab
+            // 
+            this.btnOpenInNewTab.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnOpenInNewTab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.btnOpenInNewTab.Location = new System.Drawing.Point(14, 6);
+            this.btnOpenInNewTab.Name = "btnOpenInNewTab";
+            this.btnOpenInNewTab.Size = new System.Drawing.Size(106, 21);
+            this.btnOpenInNewTab.TabIndex = 3;
+            this.btnOpenInNewTab.Text = "Open in new tab";
+            this.btnOpenInNewTab.UseVisualStyleBackColor = false;
             // 
             // tabPage9
             // 
@@ -184,219 +269,30 @@
             // 
             // panelAcademicAndTraining
             // 
-            this.panelAcademicAndTraining.Controls.Add(this.tabControl1);
-            this.panelAcademicAndTraining.Location = new System.Drawing.Point(6, 116);
+            this.panelAcademicAndTraining.Location = new System.Drawing.Point(272, 5);
             this.panelAcademicAndTraining.Name = "panelAcademicAndTraining";
-            this.panelAcademicAndTraining.Size = new System.Drawing.Size(782, 378);
+            this.panelAcademicAndTraining.Size = new System.Drawing.Size(355, 50);
             this.panelAcademicAndTraining.TabIndex = 1;
             this.panelAcademicAndTraining.Visible = false;
             this.panelAcademicAndTraining.Paint += new System.Windows.Forms.PaintEventHandler(this.panelAcademicAndTraining_Paint);
             // 
-            // tabControl1
+            // label2
             // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.Buttons;
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Location = new System.Drawing.Point(4, 49);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(771, 252);
-            this.tabControl1.TabIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabPage1.Controls.Add(this.tabControl3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(763, 223);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "ACA 1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabControl3
-            // 
-            this.tabControl3.Controls.Add(this.tabPage14);
-            this.tabControl3.Controls.Add(this.tabPage15);
-            this.tabControl3.Controls.Add(this.tabPage16);
-            this.tabControl3.Controls.Add(this.tabPage17);
-            this.tabControl3.Controls.Add(this.tabPage18);
-            this.tabControl3.Controls.Add(this.tabPage19);
-            this.tabControl3.Controls.Add(this.tabPage20);
-            this.tabControl3.Controls.Add(this.tabPage21);
-            this.tabControl3.Controls.Add(this.tabPage22);
-            this.tabControl3.Location = new System.Drawing.Point(6, 2);
-            this.tabControl3.Name = "tabControl3";
-            this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(738, 213);
-            this.tabControl3.TabIndex = 1;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(730, 187);
-            this.tabPage14.TabIndex = 0;
-            this.tabPage14.Text = "General";
-            // 
-            // tabPage15
-            // 
-            this.tabPage15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(730, 187);
-            this.tabPage15.TabIndex = 1;
-            this.tabPage15.Text = "Learner Process";
-            // 
-            // tabPage16
-            // 
-            this.tabPage16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage16.Location = new System.Drawing.Point(4, 22);
-            this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage16.Size = new System.Drawing.Size(730, 187);
-            this.tabPage16.TabIndex = 2;
-            this.tabPage16.Text = "QALA Process";
-            // 
-            // tabPage17
-            // 
-            this.tabPage17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage17.Location = new System.Drawing.Point(4, 22);
-            this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(730, 187);
-            this.tabPage17.TabIndex = 3;
-            this.tabPage17.Text = "Faculty";
-            // 
-            // tabPage18
-            // 
-            this.tabPage18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage18.Location = new System.Drawing.Point(4, 22);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(730, 187);
-            this.tabPage18.TabIndex = 4;
-            this.tabPage18.Text = "Students";
-            // 
-            // tabPage19
-            // 
-            this.tabPage19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage19.Location = new System.Drawing.Point(4, 22);
-            this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage19.Size = new System.Drawing.Size(730, 187);
-            this.tabPage19.TabIndex = 5;
-            this.tabPage19.Text = "Student Administration";
-            // 
-            // tabPage20
-            // 
-            this.tabPage20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage20.Location = new System.Drawing.Point(4, 22);
-            this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage20.Size = new System.Drawing.Size(730, 187);
-            this.tabPage20.TabIndex = 6;
-            this.tabPage20.Text = "Courses";
-            // 
-            // tabPage21
-            // 
-            this.tabPage21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage21.Location = new System.Drawing.Point(4, 22);
-            this.tabPage21.Name = "tabPage21";
-            this.tabPage21.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage21.Size = new System.Drawing.Size(730, 187);
-            this.tabPage21.TabIndex = 7;
-            this.tabPage21.Text = "Accreditation Admin";
-            // 
-            // tabPage22
-            // 
-            this.tabPage22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage22.Location = new System.Drawing.Point(4, 22);
-            this.tabPage22.Name = "tabPage22";
-            this.tabPage22.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage22.Size = new System.Drawing.Size(730, 187);
-            this.tabPage22.TabIndex = 8;
-            this.tabPage22.Text = "Accreditation Criteria";
-            this.tabPage22.Click += new System.EventHandler(this.tabPage22_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(763, 223);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Learner Process";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(763, 223);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "QALA Process";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(763, 223);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Accreditation Criteria";
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(763, 223);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Faculty";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(763, 223);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Students";
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.tabPage7.Location = new System.Drawing.Point(4, 25);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(763, 223);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Courses";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 8.25F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(20, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 12);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Navigation Form: Contacts";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(800, 506);
-            this.Controls.Add(this.panelAcademicAndTraining);
+            this.ClientSize = new System.Drawing.Size(875, 583);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panelContacts);
             this.Name = "MainForm";
@@ -404,11 +300,12 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panelContacts.ResumeLayout(false);
+            this.panelContacts.PerformLayout();
             this.tabControl2.ResumeLayout(false);
-            this.panelAcademicAndTraining.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabControl3.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -420,14 +317,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panelAcademicAndTraining;
         private System.Windows.Forms.Panel panelContacts;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage9;
@@ -435,16 +324,15 @@
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.TabControl tabControl3;
-        private System.Windows.Forms.TabPage tabPage14;
-        private System.Windows.Forms.TabPage tabPage15;
-        private System.Windows.Forms.TabPage tabPage16;
-        private System.Windows.Forms.TabPage tabPage17;
-        private System.Windows.Forms.TabPage tabPage18;
-        private System.Windows.Forms.TabPage tabPage19;
-        private System.Windows.Forms.TabPage tabPage20;
-        private System.Windows.Forms.TabPage tabPage21;
-        private System.Windows.Forms.TabPage tabPage22;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnOpenInNewTab;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
